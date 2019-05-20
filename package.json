@@ -1,0 +1,33 @@
+{
+  "name": "typescripter2",
+  "version": "0.0.1",
+  "description": "Hard version change of TypeScripter focused on extensibility",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^2.3.0",
+    "meta": "^1.2.18",
+    "typescript": "^3.4.5",
+    "typescript-json-schema": "^0.38.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "gen-schema": "typescript-json-schema \"./library/**/*.ts\" * -o ./dist/schema.json",
+    "gen-schema:commit": "npm run gen-schema && git add ./dist/schema.json"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": ""
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Centeva/TypeScripter2.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Centeva/TypeScripter2/issues"
+  },
+  "homepage": "https://github.com/Centeva/TypeScripter2#readme"
+}

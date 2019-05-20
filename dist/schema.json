@@ -1,0 +1,67 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {
+        "SchemaFieldModel": {
+            "properties": {
+                "Description": {
+                    "type": "string"
+                },
+                "GenericType": {
+                    "type": "string"
+                },
+                "Id": {
+                    "type": "string"
+                },
+                "IsEnum": {
+                    "type": "boolean"
+                },
+                "IsField": {
+                    "type": "boolean"
+                },
+                "IsProperty": {
+                    "type": "boolean"
+                },
+                "Name": {
+                    "type": "string"
+                },
+                "TypeName": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
+        "SchemaModel": {
+            "properties": {
+                "Description": {
+                    "type": "string"
+                },
+                "Fields": {
+                    "items": {
+                        "$ref": "#/definitions/SchemaFieldModel"
+                    },
+                    "type": "array"
+                },
+                "GenericType": {
+                    "type": "string"
+                },
+                "Id": {
+                    "type": "string"
+                },
+                "IsClass": {
+                    "type": "boolean"
+                },
+                "Name": {
+                    "type": "string"
+                },
+                "QualifiedName": {
+                    "type": "string"
+                },
+                "TypeName": {
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        }
+    }
+}
+
