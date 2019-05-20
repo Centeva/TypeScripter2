@@ -13,7 +13,8 @@
   "scripts": {
     "test": "mocha",
     "gen-schema": "typescript-json-schema \"./library/**/*.ts\" * -o ./dist/schema.json",
-    "gen-schema:commit": "npm run gen-schema && git add ./dist/schema.json"
+    "gen-schema:commit": "npm run gen-schema && git add ./dist/schema.json",
+    "gen-schema:CSharp-Generator-Options": "typescript-json-schema \"./CSharp-Generator/Options.ts\" * -o ./CSharp-Generator/Options-schema.json"
   },
   "husky": {
     "hooks": {

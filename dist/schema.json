@@ -1,6 +1,27 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "definitions": {
+        "Options": {
+            "description": "Options for CSharp-Generator.",
+            "properties": {
+                "Destination": {
+                    "description": "The destination path where teh generated models will be placed.",
+                    "type": "string"
+                },
+                "Files": {
+                    "items": {
+                        "type": "string"
+                    },
+                    "pattern": "(\\S)*.dll",
+                    "type": "array"
+                },
+                "Source": {
+                    "description": "The path that contains the .dll(s).",
+                    "type": "string"
+                }
+            },
+            "type": "object"
+        },
         "SchemaFieldModel": {
             "description": "The Field Type.",
             "properties": {

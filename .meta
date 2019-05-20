@@ -1,3 +1,5 @@
 {
- "projects": {}
+  "projects": {
+    "CSharp-Generator": "git@github.com:Centeva/CSharp-Generator.git"
+  }
 }

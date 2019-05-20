@@ -1,0 +1,6 @@
+{
+    "Source": "C:/Source/nci/camp-helix/Helix/bin",
+    "Destination": "C:/source/TypeScripter2/gen-schema.json",
+    "Dlls": ["Helix.dll"],
+    "CollectionTypeNames": ["ApiController"]
+}
