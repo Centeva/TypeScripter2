@@ -1,3 +1,7 @@
+
+/**
+ * The Field Type.
+ */
 export interface SchemaFieldModel {
 	Id: string;
 	Name: string;
@@ -9,6 +13,9 @@ export interface SchemaFieldModel {
 	IsEnum: boolean;
 }
 
+/**
+ * The base type.
+ */
 export interface SchemaModel {
 	Id: string;
 	Name: string;
