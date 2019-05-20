@@ -2,6 +2,7 @@
     "$schema": "http://json-schema.org/draft-07/schema#",
     "definitions": {
         "SchemaFieldModel": {
+            "description": "The Field Type.",
             "properties": {
                 "Description": {
                     "type": "string"
@@ -31,6 +32,7 @@
             "type": "object"
         },
         "SchemaModel": {
+            "description": "The base type.",
             "properties": {
                 "Description": {
                     "type": "string"
