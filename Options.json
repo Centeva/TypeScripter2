@@ -1,6 +1,7 @@
 {
-    "Source": "C:/Source/nci/camp-helix/Helix/bin",
-    "Destination": "C:/source/TypeScripter2/gen-schema.json",
-    "Dlls": ["Helix.dll"],
-    "CollectionTypeNames": ["ApiController"]
+    "Source": "C:/code/dummy-dlls/term/bin/Debug/netcoreapp2.1/",
+    "Destination": "C:/code/TypeScripter2/gen-schema.json",
+    "Dlls": ["bll.dll"],
+    "CollectionTypeNames": ["ITypescripterEntry"],
+    "Verbose": true
 }

@@ -1,3 +1,4 @@
 /node_modules
 CSharp-Generator
 /CSharp-Generator/.vs
+/gen-schema.json
