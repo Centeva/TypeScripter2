@@ -1,5 +1,6 @@
 {
   "projects": {
-    "CSharp-Generator": "git@github.com:Centeva/CSharp-Generator.git"
+    "CSharp-Generator": "git@github.com:Centeva/CSharp-Generator.git",
+    "TypeScripterPlugin": "git@github.com:Centeva/TypeScripterPlugin.git"
   }
 }

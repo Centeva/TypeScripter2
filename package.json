@@ -6,15 +6,10 @@
   "dependencies": {},
   "devDependencies": {
     "meta": "^1.2.18",
-    "meta-npm": "^1.0.3",
-    "typescript": "^3.4.5",
-    "typescript-json-schema": "^0.38.0"
+    "meta-npm": "^1.0.3"
   },
   "scripts": {
-    "test": "mocha",
-    "gen-schema": "typescript-json-schema \"./library/**/*.ts\" * -o ./dist/schema.json",
-    "gen-schema:commit": "npm run gen-schema && git add ./dist/schema.json",
-    "gen-schema:CSharp-Generator-Options": "typescript-json-schema \"./CSharp-Generator/Options.ts\" * -o ./CSharp-Generator/Options-schema.json"
+    "test": "mocha"
   },
   "husky": {
     "hooks": {
